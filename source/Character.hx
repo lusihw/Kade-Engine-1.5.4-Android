@@ -308,7 +308,7 @@ class Character extends FlxSprite
 
 				flipX = true;
 
-            case 'bf-neo':
+              case 'bf-neo':
 				var tex = Paths.getSparrowAtlas('characters/bf-final-neo', 'shared');
 				frames = tex;
 
@@ -329,7 +329,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 				flipX = true;
-
+              
 			case 'bf-christmas':
 				var tex = Paths.getSparrowAtlas('characters/bfChristmas');
 				frames = tex;
